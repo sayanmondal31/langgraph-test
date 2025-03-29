@@ -126,8 +126,7 @@ const agentBuilder = new StateGraph(MessagesAnnotation)
 const messages = [
   {
     role: "user",
-    content:
-      "Add 3 and 4 then multiply that by 10 and divide it by 2 and again multiply it by 52020 and the divide by 0",
+    content: "Add 3 and 4 then multiply that by 10 and divide it by 2",
   },
 ];
 const result = await agentBuilder.invoke({ messages });
